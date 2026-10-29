@@ -72,3 +72,12 @@ a{
 }
 
 /* Content that will be added */
+
+.clickable{
+    border: 1px solid darkgray;
+}
+
+.clickable:hover{ 
+    background-color: darkgray!important; /*will highlight it */
+    cursor: pointer; 
+}
